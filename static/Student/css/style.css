@@ -1,0 +1,44 @@
+.txtcolor{
+	color:red
+	}
+.headerclass{
+	margin-top:60px;
+	font-size: 20px
+	
+}
+.enrollmentstudentselector{
+	margin-top:60px
+}
+.jumbotron{
+	margin-top:60px;
+	text-align:center;
+	
+	
+}
+h6 {
+	font-size: 50px
+}
+.card-body{
+	background-color:black
+}
+.card-text{
+	color:white;
+	font-size:18px
+}
+.card-title{
+		color:white;
+		font-size:23px
+}
+.login{
+		margin-top:50px;
+		
+		
+}
+
+.btn-primary{
+		background-color:black;
+		color:white;
+		font-size:20px;
+		margin-left:50%;
+		margin-right:50%
+}

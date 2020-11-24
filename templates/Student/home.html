@@ -1,0 +1,68 @@
+{% extends "Student/base.html"%}
+{% block content %}
+<div class="container">
+<div class="jumbotron">
+<h6>Student and Course Overview</h6>
+</div>
+</div>
+<br/>
+
+
+<div class="container">
+<div class="card-deck">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Number of Students Enrolled</h5>
+<p class="card-text">{{data}}</p>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Number of Course Offered</h5>
+<p class="card-text">{{courses}}</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Average GPA</h5>
+<p class="card-text">{{gpa}}</p>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<br/>
+ 
+<div class="container">
+<div class="card-deck">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Number of Sophomores</h5>
+<p class="card-text">{{sophomore}}</p>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Number of Juniors</h5>
+<p class="card-text">{{junior}}</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Number of Seniors</h5>
+<p class="card-text">{{senior}}</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+{% endblock %}
